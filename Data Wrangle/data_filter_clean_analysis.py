@@ -21,8 +21,6 @@ src = root + '\\src' #source folder
 file = src + '\\Covid-19_comorbidities.csv' #input file
 df=pd.read_csv(file)
 
-
-
 #%% Functions
 def df_filter(df):
     df=df[df.State=='US'] #removed state data
